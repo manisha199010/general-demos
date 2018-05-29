@@ -1,7 +1,6 @@
 general-demos
 ========
 
-
 This a content package project generated using the multimodule-content-package-archetype.
 
 Building
