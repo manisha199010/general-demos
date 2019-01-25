@@ -41,6 +41,8 @@ public class LoggingFilter implements Filter {
                 slingRequest.getRequestPathInfo().getResourcePath(),
                 slingRequest.getRequestPathInfo().getSelectorString());
 
+
+
         chain.doFilter(request, response);
     }
 
