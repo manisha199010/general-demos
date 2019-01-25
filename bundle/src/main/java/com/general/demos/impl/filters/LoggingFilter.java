@@ -31,6 +31,9 @@ public class LoggingFilter implements Filter {
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException,
             ServletException {
         // because this is a Sling filter, we can be assured the the request
+
+
+
         // is an instance of SlingHttpServletRequest
         SlingHttpServletRequest slingRequest = (SlingHttpServletRequest) request;
         logger.debug("request for {}, with selector {}",
