@@ -44,6 +44,10 @@ public class LoggingFilter implements Filter {
 
 // ---------------
         chain.doFilter(request, response);
+
+
+
+
     }
 
     public void destroy() {
