@@ -41,6 +41,10 @@ public class LoggingFilter implements Filter {
                 slingRequest.getRequestPathInfo().getSelectorString());
 
         chain.doFilter(request, response);
+
+
+
+
     }
 
     public void destroy() {
